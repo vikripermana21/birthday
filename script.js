@@ -6,7 +6,7 @@ const second = 1000,
   minute = second * 60,
   hour = minute * 60,
   day = hour * 24;
-let countDown = new Date('Dec 3, 2020 00:00:00').getTime(),
+let countDown = new Date('Dec 3, 2021 00:00:00').getTime(),
   x = setInterval(function () {
     let now = new Date().getTime(),
       distance = countDown - now;
@@ -179,7 +179,7 @@ new TypeIt("#teks1", {
   .go();
 
 new TypeIt("#teks2", {
-  strings: ["Haii Maaaa!!", "Bilang kangen boleh ga si kwkw", "Cieee Ada Yang Ulang Tahun nihh , Makin Tua aja dari Vikri wkwkwk", "Eh iya gimana kuliahnya? , gampang ga?? , gampang lah buat Salma mah , walaupun susah juga Vikri yakin Salma pasti bisa kok , semangat yok !! , biar nanti bisa kerja bareng Vikri hehe :p .", "Maaf ma , vikri cuman bisa kasih ini gabisa kasih yang lebih besar lagi , ya kalau salma mau sih besok kita nonton itung itung kado ulang tahun lah hehe :)) "],
+  strings: ["Haii Maaaa!!", "Bilang kangen boleh ga si kwkw", "Cieee Ada Yang Ulang Tahun nihh , Makin Tua aja dari Vikri wkwkwk", "Eh iya gimana kuliahnya? , gampang ga?? , gampang lah buat Salma mah , walaupun susah juga Vikri yakin Salma pasti bisa kok , semangat yok !! , biar nanti bisa kerja bareng Vikri hehe :p .", "Maaf ma , vikri cuman bisa kasih ini gabisa kasih yang lebih besar lagi , jangan lupa istirahat Maa..... "],
   startDelay: 2000,
   speed: 75,
   waitUntilVisible: true
